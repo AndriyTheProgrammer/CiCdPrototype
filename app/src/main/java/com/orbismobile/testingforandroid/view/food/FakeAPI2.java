@@ -1,6 +1,6 @@
 package com.orbismobile.testingforandroid.view.food;
 
-import android.support.test.espresso.IdlingResource;
+import androidx.test.espresso.IdlingResource;
 
 import com.jakewharton.espresso.OkHttp3IdlingResource;
 import com.orbismobile.testingforandroid.BuildConfig;

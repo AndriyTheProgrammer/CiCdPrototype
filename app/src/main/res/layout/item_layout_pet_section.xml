@@ -13,11 +13,11 @@
         android:layout_height="wrap_content"
         tools:text="TITLE" />
 
-    <android.support.v7.widget.RecyclerView
+    <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rcvHorizontal"
         android:layout_width="wrap_content"
         android:layout_height="200dp"
         android:orientation="horizontal"
-        app:layoutManager="android.support.v7.widget.LinearLayoutManager" />
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
 
 </LinearLayout>
