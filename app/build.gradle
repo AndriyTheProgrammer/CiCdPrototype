@@ -23,7 +23,7 @@ android {
 
 sonarqube {
     def projectKey
-    logger.log(LogLevel.INFO, "Branch: " + gitBranch())
+    logger.log(LogLevel.ERROR, "Branch: " + gitBranch())
     if (gitBranch() == "alpha"){
         projectKey = "TestCiCdApp.alpha"
     }else if (gitBranch() == "master"){
