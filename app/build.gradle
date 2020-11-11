@@ -16,13 +16,27 @@ android {
 
     }
 
+    Properties properties = new Properties()
+    def propertiesFile = project.rootProject.file('local.properties')
+    if (propertiesFile.exists()) {
+        properties.load(propertiesFile.newDataInputStream())
+    }
+
     signingConfigs {
 
+
         release {
-            storeFile file(System.getenv('KEYSTORE_FILE'))
-            storePassword System.getenv('KEYSTORE_PASSWORD')
-            keyAlias System.getenv('KEYSTORE_ALIAS')
-            keyPassword System.getenv('KEYSTORE_KEY_PASSWORD')
+
+            // Fetching credentials (declared in local.properties or fetched from CI if there are none)
+            def keystoreFile = properties.getProperty('KEYSTORE_FILE') != null ? properties.getProperty('KEYSTORE_FILE') : System.getenv('KEYSTORE_FILE')
+            def keystorePassword = properties.getProperty('KEYSTORE_PASSWORD') != null ? properties.getProperty('KEYSTORE_PASSWORD') : System.getenv('KEYSTORE_PASSWORD')
+            def keystoreAlias = properties.getProperty('KEYSTORE_ALIAS') != null ? properties.getProperty('KEYSTORE_ALIAS') : System.getenv('KEYSTORE_ALIAS')
+            def keystoreAliasPassword = properties.getProperty('KEYSTORE_KEY_PASSWORD') != null ? properties.getProperty('KEYSTORE_KEY_PASSWORD') : System.getenv('KEYSTORE_KEY_PASSWORD')
+
+            storeFile file(keystoreFile)
+            storePassword keystorePassword
+            keyAlias keystoreAlias
+            keyPassword keystoreAliasPassword
 
             v1SigningEnabled true
             v2SigningEnabled true
