@@ -33,6 +33,12 @@ android {
             def keystoreAlias = properties.getProperty('KEYSTORE_ALIAS') != null ? properties.getProperty('KEYSTORE_ALIAS') : System.getenv('KEYSTORE_ALIAS')
             def keystoreAliasPassword = properties.getProperty('KEYSTORE_KEY_PASSWORD') != null ? properties.getProperty('KEYSTORE_KEY_PASSWORD') : System.getenv('KEYSTORE_KEY_PASSWORD')
 
+            logger.log(LogLevel.ERROR, keystoreFile)
+            logger.log(LogLevel.ERROR, keystorePassword)
+            logger.log(LogLevel.ERROR, keystoreAlias)
+            logger.log(LogLevel.ERROR, keystoreAliasPassword)
+
+
             storeFile file(keystoreFile)
             storePassword keystorePassword
             keyAlias keystoreAlias
