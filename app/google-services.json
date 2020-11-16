@@ -8,9 +8,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1028375044171:android:618ecb2728a4f3997eedce",
+        "mobilesdk_app_id": "1:1028375044171:android:65ea02d284b6ffec7eedce",
         "android_client_info": {
-          "package_name": "com.orbismobile.testingforandroid"
+          "package_name": "com.orbismobile.testingforandroid2"
         }
       },
       "oauth_client": [
