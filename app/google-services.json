@@ -1,34 +1,34 @@
 {
   "project_info": {
-    "project_number": "253395548923",
-    "firebase_url": "https://testcicdapp.firebaseio.com",
-    "project_id": "testcicdapp",
-    "storage_bucket": "testcicdapp.appspot.com"
+    "project_number": "1028375044171",
+    "firebase_url": "https://cicdprototype-56e56.firebaseio.com",
+    "project_id": "cicdprototype-56e56",
+    "storage_bucket": "cicdprototype-56e56.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:253395548923:android:2e2674c9d40a2270b64e5e",
+        "mobilesdk_app_id": "1:1028375044171:android:618ecb2728a4f3997eedce",
         "android_client_info": {
           "package_name": "com.orbismobile.testingforandroid"
         }
       },
       "oauth_client": [
         {
-          "client_id": "253395548923-p0jquv6e2t2dl8bbn4n74osiih4j2vet.apps.googleusercontent.com",
+          "client_id": "1028375044171-4d7528uo513f95cu57r8n3lskco35j90.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyA-7zUcQ1boXpniglLrobc5R-jBxRO8pQ4"
+          "current_key": "AIzaSyCgl8TonCc2CMwjAKlA1F6vOKxh3LzD_HU"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "253395548923-p0jquv6e2t2dl8bbn4n74osiih4j2vet.apps.googleusercontent.com",
+              "client_id": "1028375044171-4d7528uo513f95cu57r8n3lskco35j90.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
