@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.orbismobile.testingforandroid.view.contactdetail.ContactDetailActivity"
+    tools:context="com.orbismobile.testingforandroid2.view.contactdetail.ContactDetailActivity"
     tools:showIn="@layout/activity_contact_detail">
 
     <TextView

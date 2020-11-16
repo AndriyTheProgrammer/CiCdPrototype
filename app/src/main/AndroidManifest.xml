@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.orbismobile.testingforandroid">
+    package="com.orbismobile.testingforandroid2">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".view.MainActivity"
+            android:name="com.orbismobile.testingforandroid2.view.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -22,27 +22,27 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".view.login.LoginActivity"
+            android:name="com.orbismobile.testingforandroid2.view.login.LoginActivity"
             android:label="@string/title_activity_login"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".view.contact.ContactsActivity"
+            android:name="com.orbismobile.testingforandroid2.view.contact.ContactsActivity"
             android:label="@string/title_activity_contact"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".view.contactdetail.ContactDetailActivity"
+            android:name="com.orbismobile.testingforandroid2.view.contactdetail.ContactDetailActivity"
             android:label="@string/title_activity_contact_detail"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".view.pet.PetSectionsActivity"
+            android:name="com.orbismobile.testingforandroid2.view.pet.PetSectionsActivity"
             android:label="@string/title_activity_home"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".view.profile.ProfileActivity"
+            android:name="com.orbismobile.testingforandroid2.view.profile.ProfileActivity"
             android:label="@string/title_activity_home" />
 
         <activity
-            android:name=".view.food.FoodActivity"
+            android:name="com.orbismobile.testingforandroid2.view.food.FoodActivity"
             android:label="@string/title_activity_food"
             android:theme="@style/AppTheme" />
     </application>
