@@ -25,7 +25,7 @@ platform :android do
   lane :beta do
     gradle(task: "clean assembleRelease")
      firebase_app_distribution(
-            app: "1:253395548923:android:2e2674c9d40a2270b64e5e",
+            app: "1:1028375044171:android:65ea02d284b6ffec7eedce",
             testers: "andriytheprogrammer@gmail.com, abiskup@binariks.com",
             release_notes: "Lots of amazing new features to test out!",
 			firebase_cli_token:"1//0ch_FeOdBTHbKCgYIARAAGAwSNwF-L9IrvZFvdYWGP6UXm339P2M90WCZntfaEBCO9wRWalafNOK6wsy54X4PXfHy-XSpKnPBsPE"
